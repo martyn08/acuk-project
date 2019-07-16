@@ -1,0 +1,202 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 7,
+        "name": "Search result page contains search query",
+        "description": "",
+        "id": "google-search;search-result-page-contains-search-query",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3076492121,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I\u0027m on google search page",
+            "match": {
+              "location": "LoginSteps.i_m_on_google_search_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1283494788,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I search for \"Cucumber\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cucumber",
+                  "offset": 14
+                }
+              ],
+              "location": "LoginSteps.i_search_for(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 87273,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the page title should contain word \"cucumber\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "cucumber",
+                  "offset": 36
+                }
+              ],
+              "location": "LoginSteps.the_page_title_should_contain_word(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Google first result description contains searched query",
+        "description": "",
+        "id": "google-search;google-first-result-description-contains-searched-query",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3452880000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I\u0027m on google search page",
+            "match": {
+              "location": "LoginSteps.i_m_on_google_search_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1711712000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I search for \"Java\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Java",
+                  "offset": 14
+                }
+              ],
+              "location": "LoginSteps.i_search_for(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 124606,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the first line on the result page should contain \"Java\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Java",
+                  "offset": 50
+                }
+              ],
+              "location": "LoginSteps.the_first_line_on_the_result_page_should_contain(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Google first result description contains searched query",
+        "description": "",
+        "id": "google-search;google-first-result-description-contains-searched-query",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3382560000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I\u0027m on google search page",
+            "match": {
+              "location": "LoginSteps.i_m_on_google_search_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 721138425,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "i navigate to \"URL\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "URL",
+                  "offset": 15
+                }
+              ],
+              "location": "LoginSteps.i_navigate_to(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 388201697,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "i enter username and password",
+            "match": {
+              "location": "LoginSteps.i_enter_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1346241454,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "i click on Login button",
+            "match": {
+              "location": "LoginSteps.i_click_on_Login_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Google Search",
+    "description": "As a web user\r\nI want to find information on google\r\nSo that I get a better understanding of the topic",
+    "id": "google-search",
+    "keyword": "Feature",
+    "uri": "login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@GoogleSearch"
+      },
+      {
+        "line": 1,
+        "name": "@test"
+      }
+    ]
+  }
+]
